@@ -14,7 +14,7 @@
         </p>
       </div>
 
-      <p class="lang"> Mudar idioma </p>
+      <p class="lang"> Change language </p>
       <a href="http://localhost:8080/#/" class="ptPage">
       <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg" class="center" />
       </a>
@@ -37,6 +37,13 @@ body {
 
 .all {
   border-top: 50px;
+}
+
+.lang {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110px;
 }
 
 .headline {
