@@ -1,9 +1,11 @@
 # quasar-project
 Projeto simples Quasar
 
-1- Abra o terminal e digite 'npm install' ou simplesmente 'npm i' para instalar as dependências.
+# Instalar dependências
+'npm install' ou simplesmente 'npm i' para instalar as dependências.
 
-2- Então digite 'quasar dev' para iniciar o servidor Quasar em modo desenvolvedor.
+# Executar Quasar em modo desenvolvedor
+'quasar dev'
 
 
 Funcionalidades: 
