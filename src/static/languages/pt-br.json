@@ -1,0 +1,8 @@
+{
+  "navBar": "Introdução ao Quasar Framework",
+  "title": "O que é Quasar framework?",
+  "text": "Quasar Framework é uma estrutura baseada em Vue.JS de código aberto para a construção de aplicativos, com uma única base de código e implantá-lo na Web como SPA, PWA, SSR, para um aplicativo móvel, usando Cordova para iOS e Android, e para um aplicativo de desktop, usando Electron para Mac, Windows e Linux.",
+  "smallerText": "O Quasar Framework foi criado por Razvan Stoenescu e é mantido por ele e pelo resto dos membros ativos da equipe principal, que trabalham em várias empresas, como Lenovo, IntelliView Technologies Inc. e AG Development Services.",
+  "languageText": "Mudar idioma",
+  "credit": "Por Henrique"
+}

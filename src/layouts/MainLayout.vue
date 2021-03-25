@@ -3,10 +3,10 @@
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title class="absolute-center">
-          Introduction to Quasar framework
+          {{ content.navBar }}
         </q-toolbar-title>
 
-        <div>By Henrique</div>
+        <div>{{ content.credit }}</div>
       </q-toolbar>
     </q-header>
 
@@ -17,14 +17,17 @@
 </template>
 
 <script>
-
+import { mapGetters } from 'vuex'
 export default {
   name: 'MainLayout',
-  components: { },
   data () {
     return {
-      leftDrawerOpen: false
+      leftDrawerOpen: false,
+      language: 'pt-br'
     }
+  },
+  computed: {
+    ...mapGetters(['content'])
   }
 }
 </script>
